@@ -44,6 +44,13 @@ const Home = () => {
         </div>
       
         </div>
+
+        <div>
+            <div className="diag" >
+              <h1>Diagnostics</h1>
+              <h1 className="door_step">At Your Doorstep</h1>
+            </div>
+        </div>
        
 
 
