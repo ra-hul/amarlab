@@ -63,14 +63,14 @@ const Home = () => {
               <div className='flex space-x-3 ml-36 mt-3'>
                 <img className="w-4 h-4 ml-7 " src={cart_2}></img>
                 <div>  
-                <h5> <span> Step 01:</span> Order tests</h5>
+                <h5> <span className='header'> Step 01:</span> Order tests</h5>
                  <small className="book_test">Book tests & checkups</small>
               </div>
               </div>
               <div  className='flex space-x-3 ml-36 mt-3' >
               <img className="w-4 h-4 " src={cart_3}></img>
                 <div>
-                <h5>Step 02: Provide Sample</h5>
+                <h5><span className='header'>Step 02:</span> Provide Sample</h5>
                 <small className="book_test">From your doorstep</small>
                 </div>
                 </div>
@@ -78,9 +78,13 @@ const Home = () => {
                 <div className='flex space-x-3 ml-40 mt-3'>
                 <img className="w-4 h-4 " src={cart_4 }></img>
                 <div>
-                <h5>Step 03: Get Report</h5>
+                <h5><span className='header'>Step 03:</span> Get Report</h5>
                 <small className="book_test">From your doorstep</small>
                 </div>
+                </div>
+                <div className=''>
+                    <button className='Order_test'> Order Test</button>
+                    <button className="Call_order"> Call to Order</button>
                 </div>
                
             </div>

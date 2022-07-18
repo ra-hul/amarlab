@@ -71,3 +71,28 @@
 .book_test{
     color: #787887;
 }
+.header{
+    color: #212529;
+    font-weight: 700;
+}
+.Order_test{
+    background-color: #31b5c4;
+    color: #F8F9FA;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+   
+}
+.Call_order{
+    background-color:#EBF3F5;
+    color: #212529;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 46%;
+    margin-top: 15px;
+    margin-left: 15px;
+   
+  
+
+}
