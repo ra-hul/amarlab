@@ -3,6 +3,9 @@ import './Home.css';
 import logo from './../images/logo.png';
 import location from './../images/location.png';
 import cart from './../images/cart.png';
+import cart_2 from './../images/cart_2.png';
+import cart_3 from './../images/inject.png';
+import cart_4 from './../images/prescribe.png';
 
 const Home = () => {
     return (
@@ -45,15 +48,43 @@ const Home = () => {
       
         </div>
 
-        <div>
+        <div className="">
             <div className="diag" >
               <h1>Diagnostics</h1>
               <h1 className="door_step">At Your Doorstep</h1>
             </div>
-        </div>
-       
+            <div>
+            <p className='door_step2'>Making Healthcare Easily Accessible to Everyone, Everywhere.</p>
+           
+            </div>
+            
 
-
+              <div className="flex space-x-7">
+              <div className='flex space-x-3 ml-36 mt-3'>
+                <img className="w-4 h-4 ml-7 " src={cart_2}></img>
+                <div>  
+                <h5> <span> Step 01:</span> Order tests</h5>
+                 <small className="book_test">Book tests & checkups</small>
+              </div>
+              </div>
+              <div  className='flex space-x-3 ml-36 mt-3' >
+              <img className="w-4 h-4 " src={cart_3}></img>
+                <div>
+                <h5>Step 02: Provide Sample</h5>
+                <small className="book_test">From your doorstep</small>
+                </div>
+                </div>
+              </div>
+                <div className='flex space-x-3 ml-40 mt-3'>
+                <img className="w-4 h-4 " src={cart_4 }></img>
+                <div>
+                <h5>Step 03: Get Report</h5>
+                <small className="book_test">From your doorstep</small>
+                </div>
+                </div>
+               
+            </div>
+    
 
         </>
 

@@ -58,7 +58,16 @@
 .diag{
     font-size: 45px;
     font-weight: 700;
+    margin-right: 50%;
 }
 .door_step{
-    margin-left: 9%;
+    margin-left: 16%;
+    
+}
+.door_step2{
+    margin-left: 14%;
+    margin-right: 50%;
+}
+.book_test{
+    color: #787887;
 }
