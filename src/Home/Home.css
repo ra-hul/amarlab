@@ -288,3 +288,21 @@
     font-size: 18px;
     margin-left: 30%;
 }
+.inject{
+    background-color: #f5f5f5;
+    padding: 20px 25px;
+    border-radius: 50%;
+    width: 80px;
+    margin-left: 20%;
+
+
+}
+.safe{
+    margin-right: 52%;
+    color: #212529;
+    font-weight: 600;
+}
+.sample{
+    margin-right: 52%;
+    color: #42464A;
+}

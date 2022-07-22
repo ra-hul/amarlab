@@ -228,7 +228,31 @@ const Home = () => {
               </div>
             </div>
 
-         
+         <div>
+           <div>
+            <h5 className="partners">Why Book With Us?</h5>
+           </div>
+           <div className='icon'>
+            <div className='inject'>
+              <img  src={cart_3} />
+            </div>
+           
+            <h5 className="safe">Safe Home Sample <br/> Collection</h5>
+           <p className='sample'>A certified professional <br/> will collect your sample <br/> from your location.</p>
+
+
+           <div className='inject'>
+           <img  src={cart_3} /> 
+           </div>
+           <h5 className="safe">Safe Home Sample <br/> Collection</h5>
+           <p className='sample'>A certified professional <br/> will collect your sample <br/> from your location.</p>
+
+           </div>
+           
+
+           
+
+         </div>
      
     
 
