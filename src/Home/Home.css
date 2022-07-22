@@ -99,7 +99,6 @@
     padding: 12px 40px;
     border-radius: 5px;
     font-weight: 600;
-   
     margin-top: 15px;
     /* margin-left: 15px; */
 }
@@ -108,6 +107,8 @@
     height: 500px;
     overflow: hidden;
     margin-left: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;  
 }
 .slides{
     width: 400%;
@@ -126,8 +127,7 @@
 .slide img{
     width: 400%;
     height:320px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    
 }
 
 .navigation-manual{
@@ -198,4 +198,93 @@
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #787887;
 
+}
+.container{
+    background-color: #EBF3F5;
+    padding: 40px;
+    height: 150px;
+    margin-top: -100px;
+    max-width: 100%;
+    
+}
+.service-container{
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.divide-line{
+    width: 1px;
+    height: 120%;
+    background-color: #d0d9d7;
+    margin-left: 10%;
+}
+.tests{
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10%;
+}
+.popular{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 55px;
+    width: 15%;
+    height: 5%;
+  
+}
+.popular2{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 30px;
+    width: 15%;
+    height: 5%;
+  
+}
+.popular3{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 60px;
+    width: 15%;
+    height: 5%;
+  
+}
+.popular4{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 65px;
+    width: 15%;
+    height: 5%;
+}
+.popular5{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 35px;
+    width: 15%;
+    height: 5%;
+}
+.labs-sponsor{
+  
+    margin-top: 30px;
+}
+.labs-sponsor2{
+
+    margin-top: 20px;
+}
+.labs-sponsor img{
+    width: 80px;
+    height: 80px;
+}
+.partners{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 700;
+}
+.yourtest{
+    color: #42464a;
+    margin-bottom: 45px;
+    max-width: 500px;
+    font-size: 18px;
+    margin-left: 30%;
 }

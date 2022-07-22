@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import Card from './Card';
 import logo from './../images/logo.png';
 import location from './../images/location.png';
 import cart from './../images/cart.png';
@@ -10,8 +9,14 @@ import cart_4 from './../images/prescribe.png';
 import homepic from './../images/home_pic.jpg';
 import homepicOne from './../images/home_pic_1.jpg';
 import homepicTwo from './../images/home_pic_2.jpg';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import popular from './../images/popular.png';
+import ibn from './../images/ibn.png';
+import united from './../images/united.png';
+import dr from './../images/drlal.jpg';
+import thy from './../images/thy.jpg';
+import islami from './../images/islami.png';
+import oncos from './../images/oncos.png';
+
 
 
 
@@ -26,6 +31,8 @@ const Home = () => {
    }
 
   }, 5000);
+  
+ 
  
     return (
       
@@ -69,7 +76,7 @@ const Home = () => {
         </div>
 
         <div className="flex">
-          <div className=''>
+          <div>
           <div className="diag" >
               <h1>Diagnostics</h1>
               <h1 className="door_step">At Your Doorstep</h1>
@@ -153,7 +160,75 @@ const Home = () => {
              </div>
 
             </div>
+          
+            <div className='container flex'>
+              <div className='justify-center service-container' >
+                <h5 className="counter"> <span >4 Years +</span></h5>
+                <small>Services</small>
+              </div>
+              <div className='divide-line ' ></div>
+              <div className=' tests' >
+                <h5 className="counter"> <span> 52297 +</span> </h5>
+                <small>Tests done</small>
+              </div>
 
+            </div>
+            <div>
+              <div className='lab-container'>
+                <h5 className="partners">Our Lab Partners</h5>
+                <p className="yourtest">Your tests will be done from our partner labs where quality
+                   <br/>
+                is uncompromised.
+                </p>
+                <div className='flex justify-center  space-x-7 labs-sponsor'>
+                  <div className='popular'>
+                    <div>
+                     <img  src={popular} />
+                    </div>
+                  </div>
+                  <div className='popular'>
+                    <div>
+                     <img  src={ibn} />
+                    </div>
+                  </div>
+                  <div className='popular2'>
+                    <div>
+                     <img  src={united} />
+                    </div>
+                  </div>
+                  <div className='popular3'>
+                    <div>
+                     <img  src={dr} />
+                    </div>
+                  </div>
+
+                </div>
+                <div>
+                  <div className="flex justify-center  space-x-7 labs-sponsor2">
+                  <div className='popular'>
+                    <div>
+                     <img  src={thy} />
+                    </div>
+                  </div>
+                  <div className='popular4'>
+                    <div>
+                     <img  src={islami} />
+                    </div>
+                  </div>
+                  <div className='popular5'>
+                    <div>
+                     <img  src={oncos} />
+                    </div>
+                  </div>
+                </div>
+
+                  </div>
+                
+
+              </div>
+            </div>
+
+         
      
     
 
