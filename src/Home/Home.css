@@ -61,13 +61,14 @@
     /* margin-right: 50%; */
 }
 .door_step{
-    /* margin-left: 0px; */
+    margin-left: 87px;
     
 }
 .door_step2{
-    /* margin-left: 10%; */
+    margin-left: 180px;
     /* margin-right: 50%; */
-    color:#787887
+    color:#787887;
+    font-size: 14px;
 }
 .book_test{
     color: #787887;
@@ -89,7 +90,7 @@
     border-radius: 5px;
     font-weight: 600;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 160px;
    
 }
 .Call_order{
@@ -118,7 +119,7 @@
 }
 
 .slide{
-    width: 25;
+    width: 500px;
     transition: 2s;
 }
 
@@ -131,6 +132,10 @@
 
 .navigation-manual{
     position: absolute;
+    width: 800px;
+    margin-top: -114px;
+    display: flex;
+    margin-left: 230px;
 }
 
 .manual-btn{
@@ -139,6 +144,23 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-    width: 16px;
-    height: 16px;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.manual-btn:hover{
+    background-color: #787887;
+}
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
 }
