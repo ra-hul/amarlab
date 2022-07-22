@@ -1,13 +1,23 @@
 import React from 'react';
 import './Home.css';
+import Card from './Card';
 import logo from './../images/logo.png';
 import location from './../images/location.png';
 import cart from './../images/cart.png';
 import cart_2 from './../images/cart_2.png';
 import cart_3 from './../images/inject.png';
 import cart_4 from './../images/prescribe.png';
+import homepic from './../images/home_pic.jpg';
+import homepicOne from './../images/home_pic_1.jpg';
+import homepicTwo from './../images/home_pic_2.jpg';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+
+
 
 const Home = () => {
+ 
     return (
 
 
@@ -48,7 +58,7 @@ const Home = () => {
       
         </div>
 
-        <div className="">
+        <div className="container">
             <div className="diag" >
               <h1>Diagnostics</h1>
               <h1 className="door_step">At Your Doorstep</h1>
@@ -71,7 +81,7 @@ const Home = () => {
               <img className="w-4 h-4 " src={cart_3}></img>
                 <div>
                 <h5><span className='header'>Step 02:</span> Provide Sample</h5>
-                <small className="book_test">From your doorstep</small>
+                <small className="book_test2">From your doorstep</small>
                 </div>
                 </div>
               </div>
@@ -79,15 +89,56 @@ const Home = () => {
                 <img className="w-4 h-4 " src={cart_4 }></img>
                 <div>
                 <h5><span className='header'>Step 03:</span> Get Report</h5>
-                <small className="book_test">From your doorstep</small>
+                <small className="book_test">Your report delivered</small>
                 </div>
                 </div>
                 <div className=''>
                     <button className='Order_test'> Order Test</button>
                     <button className="Call_order"> Call to Order</button>
                 </div>
-               
+             <div className='slider'>
+              <div className='slides'>
+
+                <input type='radio' name="radio-btn" id="radio1" />
+                <input type='radio' name="radio-btn" id="radio2" />
+                <input type='radio' name="radio-btn" id="radio3" />
+                <input type='radio' name="radio-btn" id="radio4" />
+
+
+                <div className='slide-first'>
+                  <img src={homepic} />
+                </div>
+                <div className='slide'>
+                  <img src={homepicOne} />
+                </div>
+                <div className='slide'>
+                  <img src={homepicTwo} />
+                </div>
+                <div className='slide'>
+                  <img src={homepic} />
+                </div>
+
+                <div className='navigation-auto'>
+                  <div className="auto-btn1"></div>
+                  <div className="auto-btn2"></div>
+                  <div className="auto-btn3"></div>
+                  <div className="auto-btn4"></div>
+                </div>
+
+              </div>
+              <div className='navigation-manual'>
+                <label for="radio1" className='manual-btn'></label>
+                <label for="radio2" className='manual-btn'></label>
+                <label for="radio3" className='manual-btn'></label>
+                <label for="radio4" className='manual-btn'></label>
+
+              </div>
+
+             </div>
+
             </div>
+
+     
     
 
         </>

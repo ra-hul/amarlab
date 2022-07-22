@@ -70,10 +70,16 @@
 }
 .book_test{
     color: #787887;
+    margin-right: 10%;
+}
+.book_test2{
+    color: #787887;
+    margin-right: 34%;
 }
 .header{
     color: #212529;
     font-weight: 700;
+    margin-left: 13px;
 }
 .Order_test{
     background-color: #31b5c4;
@@ -92,7 +98,15 @@
     margin-right: 46%;
     margin-top: 15px;
     margin-left: 15px;
-   
-  
-
+}
+.slider{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
 }
