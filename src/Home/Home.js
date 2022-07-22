@@ -58,8 +58,9 @@ const Home = () => {
       
         </div>
 
-        <div className="container">
-            <div className="diag" >
+        <div className="flex">
+          <div className=''>
+          <div className="diag" >
               <h1>Diagnostics</h1>
               <h1 className="door_step">At Your Doorstep</h1>
             </div>
@@ -70,14 +71,14 @@ const Home = () => {
             
 
               <div className="flex space-x-7">
-              <div className='flex space-x-3 ml-36 mt-3'>
+              <div className='flex space-x-3 ml-30 mt-3'>
                 <img className="w-4 h-4 ml-7 " src={cart_2}></img>
                 <div>  
                 <h5> <span className='header'> Step 01:</span> Order tests</h5>
                  <small className="book_test">Book tests & checkups</small>
               </div>
               </div>
-              <div  className='flex space-x-3 ml-36 mt-3' >
+              <div  className='flex space-x-3 ml-30 mt-3' >
               <img className="w-4 h-4 " src={cart_3}></img>
                 <div>
                 <h5><span className='header'>Step 02:</span> Provide Sample</h5>
@@ -85,17 +86,19 @@ const Home = () => {
                 </div>
                 </div>
               </div>
-                <div className='flex space-x-3 ml-40 mt-3'>
+                <div className='flex space-x-3 ml-30 mt-3'>
                 <img className="w-4 h-4 " src={cart_4 }></img>
                 <div>
                 <h5><span className='header'>Step 03:</span> Get Report</h5>
                 <small className="book_test">Your report delivered</small>
                 </div>
                 </div>
-                <div className=''>
+                <div className='flex space-x-4'>
                     <button className='Order_test'> Order Test</button>
                     <button className="Call_order"> Call to Order</button>
                 </div>
+          </div>
+            
              <div className='slider'>
               <div className='slides'>
 
@@ -105,7 +108,7 @@ const Home = () => {
                 <input type='radio' name="radio-btn" id="radio4" />
 
 
-                <div className='slide-first'>
+                <div className='slide first'>
                   <img src={homepic} />
                 </div>
                 <div className='slide'>
