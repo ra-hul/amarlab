@@ -309,5 +309,42 @@
     color: #42464A;
 }
 .icon{
-    margin-left: 15%;
+    margin-left: 22%;
+}
+.order-card{
+    background-color: #E8F2ED;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.from{
+   margin-right: 120px;    
+}
+.from2{
+   margin-right: 220px;    
+}
+.order_now{
+    background-color: #31b5c4;
+    color:#f8f8f8;
+    padding: 10px 40px;
+    /* margin-top: 30px; */
+    margin-right: 350px;
+    border-radius: 10px;
+}
+.order_now2{
+    background-color: #31b5c4;
+    color:#f8f8f8;
+    padding: 10px 40px;
+    margin-top: 62px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+.order-diag{
+    margin-right: 235px;
+}
+.order-diag2{
+    margin-right: 235px;
+}
+.order-heavily{
+    margin-right: 20px;
+    
 }

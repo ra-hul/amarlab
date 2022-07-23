@@ -270,12 +270,40 @@ const Home = () => {
            </div>
            
            </div>
-           
-
-           
-
          </div>
-     
+
+      
+           <div className='flex justify-center my-6 space-x-7'>
+          <div className='order-card'>
+        
+            <div className='order-diag'>
+            <h5 className="text-2xl font-semibold ">Order Diagnostics Service <br/> <span className='from'>From Top Labs</span></h5>
+            <span className='order-diag'>Order Diagnostic Tests from Preferred <br/> Labs</span>
+            </div>
+        
+            
+            <div>
+           <button className='order_now  my-10'>Order Now</button>
+           </div> 
+          </div>          
+          <div className='order-card'>
+        
+           <div className='order-diag2'>
+           <h5 className="text-2xl font-semibold ">Order Packages From Top  <br/> <span className='from2'>Labs</span></h5>
+            <span className='order-heavily'>Order Heavily Discounted packages.</span>
+           </div>
+        
+            
+            <div>
+           <button className='order_now2'>Order Now</button>
+           </div> 
+          </div>          
+         </div>
+        
+      
+        
+        
+          
     
 
         </>
