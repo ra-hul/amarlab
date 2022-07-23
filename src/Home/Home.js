@@ -273,7 +273,7 @@ const Home = () => {
          </div>
 
       
-           <div className='flex justify-center my-6 space-x-7'>
+           <div className='flex justify-center my-24 space-x-7'>
           <div className='order-card'>
         
             <div className='order-diag'>
@@ -299,7 +299,29 @@ const Home = () => {
            </div> 
           </div>          
          </div>
-        
+
+
+        <div className=" need-help">
+        <div className="book">
+        <div className='booking-test'>
+            <h4>Need help in booking a test?</h4>
+          </div>
+          <div className="enter-contact">
+            <p>Enter your contact details below and our team will call you.</p>
+          </div>
+        </div>
+          <div className='flex space-x-4 button-input'>
+             <div >
+              <input className='input-number'  type="number" placeholder='Your Mobile Number'/>
+             </div>
+             <div className='submit'>
+              <button>Submit</button>
+             </div>
+
+          </div>
+
+
+        </div>
       
         
         

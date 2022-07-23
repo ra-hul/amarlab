@@ -348,3 +348,37 @@
     margin-right: 20px;
     
 }
+.need-help{
+    background-color: #EBF3F5;
+    padding: 40px;
+    height: 220px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.booking-test{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 600;
+}
+.submit{
+    background-color: #31b5c4;
+    color: #fff;
+    padding: 16px 51px;
+    border-radius: 5px;
+}
+.input-number{
+    padding: 16px 51px;
+  
+}
+
+.book{
+    margin-right: 50%;
+}
+.button-input{
+    margin-left: 11%;
+    margin-top: 18px;
+    
+}
+.enter-contact{
+    margin-left: 20px;
+}
