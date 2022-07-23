@@ -6,6 +6,7 @@ import cart from './../images/cart.png';
 import cart_2 from './../images/cart_2.png';
 import cart_3 from './../images/inject.png';
 import cart_4 from './../images/prescribe.png';
+import cart_5 from './../images/offers.jpg';
 import homepic from './../images/home_pic.jpg';
 import homepicOne from './../images/home_pic_1.jpg';
 import homepicTwo from './../images/home_pic_2.jpg';
@@ -232,21 +233,42 @@ const Home = () => {
            <div>
             <h5 className="partners">Why Book With Us?</h5>
            </div>
-           <div className='icon'>
+           <div className=''>
+           <div className='icon flex space-x-44 '>
+       <div>
             <div className='inject'>
               <img  src={cart_3} />
             </div>
            
-            <h5 className="safe">Safe Home Sample <br/> Collection</h5>
-           <p className='sample'>A certified professional <br/> will collect your sample <br/> from your location.</p>
+       <div>
+       <h5 className="safe">Safe Home Sample <br/> Collection</h5>
+        <p className='sample'>A certified professional <br/> will collect your sample <br/> from your location.</p>
 
+       </div>
+       </div>
 
-           <div className='inject'>
-           <img  src={cart_3} /> 
+         <div>
+          <div className='inject'>
+           <img  src={cart_4} /> 
            </div>
-           <h5 className="safe">Safe Home Sample <br/> Collection</h5>
-           <p className='sample'>A certified professional <br/> will collect your sample <br/> from your location.</p>
-
+        
+        <div>
+          <h5 className="safe">Get Digital Report Within <br/> A Day</h5>
+          <p className='sample'>Our labs ensure turn- <br/> around-time of 24 hours <br/> from specimen pickup</p>
+        </div>
+        </div>
+         <div>
+          <div className='inject'>
+           <img  src={cart_5} /> 
+           </div>
+        
+        <div>
+          <h5 className="safe">Offers And Affordable <br/> Prices</h5>
+          <p className='sample'>Get great discounts and <br/> offers on tests and <br/> packages.</p>
+        </div>
+        </div>
+           </div>
+           
            </div>
            
 
