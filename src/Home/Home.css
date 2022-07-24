@@ -436,3 +436,26 @@
 }
 .hmove {animation: slideh linear 5s infinite ;}
 .hmove:hover {animation-play-state: paused;}
+
+.business-partners-slider{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 120px;
+    width: 190px;
+    padding: 45px 28px;
+}
+.business-partners-slider img{
+    width: 120px;
+    height: 50px;
+}
+/* .banglalink{
+    height: 70px;
+} */
+
+.prev-btn, 
+.next-btn{
+     width: 40px;
+     height: 45px;
+     font-size: 25px;
+     background-color: #fff;
+}

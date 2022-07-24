@@ -10,6 +10,18 @@ import cart_5 from './../images/offers.jpg';
 import capture from './../images/Capture.PNG';
 import capture_2 from './../images/Capture2.PNG';
 import inverted from './../images/inverted.jpg';
+import basis from './../images/basis.png';
+import banglalink from './../images/banglalink.png';
+import apex from './../images/apex.png';
+import beol from './../images/beol.png';
+import biop from './../images/biop.png';
+import bkash from './../images/bkash.png';
+import gpstar from './../images/gpstar.png';
+import impact from './../images/impact.png';
+import doctime from './../images/doctime.png';
+import yy from './../images/yy.png';
+import pulse from './../images/pulse.png';
+import confidence from './../images/confidence.png';
 import homepic from './../images/home_pic.jpg';
 import homepicOne from './../images/home_pic_1.jpg';
 import homepicTwo from './../images/home_pic_2.jpg';
@@ -388,6 +400,29 @@ const Home = () => {
            </div>
 
             </div>
+
+            <div className="font-bold text-3xl my-10">
+              <h5>Trusted By Over 80+ Businesses</h5>
+            </div>
+          <div className='flex space-x-7 justify-center'>
+          <div className='business-partners-slider'>
+              <div>
+                <img src={basis} />
+              </div>
+            </div>
+            <div className='business-partners-slider'>
+              <div>
+                <img src={yy} />
+              </div>
+            </div>
+            <div className='business-partners-slider'>
+              <div>
+                <img className='banglalink' src={banglalink} />
+              </div>
+            </div>
+            <div className='prev-btn'>&#10094;</div>
+            <div className='next-btn'>&#10095;</div>
+          </div>
      
         </div>
       
