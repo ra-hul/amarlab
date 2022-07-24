@@ -281,7 +281,6 @@
     font-size: 20px;
     font-weight: 700;
     margin-top: 70px;
-    /* margin-left: 2%; */
     margin-bottom: 45px;
 }
 .yourtest{
@@ -326,7 +325,6 @@
     background-color: #31b5c4;
     color:#f8f8f8;
     padding: 10px 40px;
-    /* margin-top: 30px; */
     margin-right: 350px;
     border-radius: 10px;
 }
@@ -353,7 +351,7 @@
     padding: 40px;
     height: 220px;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
 }
 .booking-test{
     color: #212529;
@@ -382,3 +380,59 @@
 .enter-contact{
     margin-left: 20px;
 }
+.special-offer img{
+    width: 520px;
+    height: 300px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.enjoy{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.achieve-container{
+    background-color: #f8f9fa;
+    height: 55%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.our-achieve{
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.inverted{
+    width: 30px;
+    height: 30px;
+    margin-left: 48%;
+}
+.clients{
+    margin-top: 25px;
+}
+.hslide{
+    width: 100%;
+    flex-shrink: 0;
+}
+.hmove{
+    display: flex;
+    position: relative;
+    
+}
+
+@keyframes slideh{
+    0% {right:  0%;}
+    20% {right: 0%;}
+    33% {right: 100%;}
+    43% {right: 100%;}
+    56% {right: 200%;}
+    67% {right: 200%;}
+    77% {right: 300%;}
+    88% {right: 300%;}
+    90% {right: 400%;}
+    100% {right: 400%;}
+}
+.hmove {animation: slideh linear 5s infinite ;}
+.hmove:hover {animation-play-state: paused;}

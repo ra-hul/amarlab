@@ -7,6 +7,9 @@ import cart_2 from './../images/cart_2.png';
 import cart_3 from './../images/inject.png';
 import cart_4 from './../images/prescribe.png';
 import cart_5 from './../images/offers.jpg';
+import capture from './../images/Capture.PNG';
+import capture_2 from './../images/Capture2.PNG';
+import inverted from './../images/inverted.jpg';
 import homepic from './../images/home_pic.jpg';
 import homepicOne from './../images/home_pic_1.jpg';
 import homepicTwo from './../images/home_pic_2.jpg';
@@ -319,8 +322,73 @@ const Home = () => {
              </div>
 
           </div>
+        </div>
+        <div>
+          <div className='enjoy'>
+            <h5>Enjoy Special Offers</h5>
+          </div>
+          <div className='flex space-x-7 special-offer'>
+            <img  src={capture} />
+            <img src={capture_2} /> 
+          </div>
+        </div>
 
+        <div className="achieve-container p-10">
+          <div className='our-achieve' >
+            <h5>Our Achievements</h5>
+          </div>
+ 
+            <div >
 
+              
+             <div className='hmove'>
+                <div className='hslide'>
+                <img className='inverted' src= {inverted} />
+                <p>Thanks1 to AmarLab for their excellent service. I have eye problems that do not allow me to go out for a diagnostic test. The agent was very <br/> cooperative and polite to collect my sample. And, I did not feel pain at all.</p>
+             <div className="clients">
+                 <p>Sumaya Samad</p>
+                 <p>30 Years</p>
+             </div>
+             <div>
+             <input type="radio" name="gender" value="male"/>
+             </div>
+                </div>
+                <div className='hslide'>
+                <img className='inverted' src= {inverted} />
+                <p>Thanks2 to AmarLab for their excellent service. I have eye problems that do not allow me to go out for a diagnostic test. The agent was very <br/> cooperative and polite to collect my sample. And, I did not feel pain at all.</p>
+             <div className="clients">
+                 <p>Sumaya Samad</p>
+                 <p>30 Years</p>
+             </div>
+                </div>
+                <div className='hslide'>
+                <img className='inverted' src= {inverted} />
+                <p>Thanks 3to AmarLab for their excellent service. I have eye problems that do not allow me to go out for a diagnostic test. The agent was very <br/> cooperative and polite to collect my sample. And, I did not feel pain at all.</p>
+             <div className="clients">
+                 <p>Sumaya Samad</p>
+                 <p>30 Years</p>
+             </div>
+                </div>
+                <div className='hslide'>
+                <img className='inverted' src= {inverted} />
+                <p>Thanks4 to AmarLab for their excellent service. I have eye problems that do not allow me to go out for a diagnostic test. The agent was very <br/> cooperative and polite to collect my sample. And, I did not feel pain at all.</p>
+             <div className="clients">
+                 <p>Sumaya Samad</p>
+                 <p>30 Years</p>
+             </div>
+                </div>
+                <div className='hslide'>
+                <img className='inverted' src= {inverted} />
+                <p>Thanks5 to AmarLab for their excellent service. I have eye problems that do not allow me to go out for a diagnostic test. The agent was very <br/> cooperative and polite to collect my sample. And, I did not feel pain at all.</p>
+             <div className="clients">
+                 <p>Sumaya Samad</p>
+                 <p>30 Years</p>
+             </div>
+                </div>
+           </div>
+
+            </div>
+     
         </div>
       
         
