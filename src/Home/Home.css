@@ -510,6 +510,7 @@
 .article-container h5 {
   font-size: 30px;
   font-weight: 700;
+  margin-top: 30px;
 }
 .article-p {
   margin-left: 13px;
@@ -517,4 +518,11 @@
 }
 .article-p2 {
   margin-left: 13px;
+}
+.causes {
+  width: 360px;
+  height: 180px;
+}
+.causes2 {
+  margin-right: 120px;
 }

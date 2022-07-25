@@ -523,7 +523,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" grid grid-cols-3 lg:gap-3 justify-items-center">
+      <div className=" grid grid-cols-3  justify-items-center">
+        <div className="article-container  ">
+          <h5>Read Top Articles</h5>
+
+          <p className="article-p">
+            Read our thoughts on healthcare, our <br />
+            <span className="article-p2">
+              news and updates from Amarlab family.
+            </span>
+          </p>
+
+          <button className="see-btn">See All Articles</button>
+        </div>
         <div className="py-10">
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
             <img src={meetup} />
@@ -540,18 +552,18 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="py-10">
+        <div className="py-10 causes2">
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
-            <img src={causes} />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 ">
+            <img className="causes" src={causes} />
+            <div className="px-6 py-2">
+              <div className="font-bold text-xl ">
                 <span className="ml-10"> What are the Causes and Risk</span>{" "}
                 <br /> <span className="ml-4">Factors of Prostate Cancer</span>
               </div>
               <p className="text-gray-600 mr-48">Tech</p>
             </div>
-            <div className="grid grid-flow-col gap-5 pb-2 px-6">
-              <p className="font-base mb-2 mr-14">
+            <div className="grid grid-flow-col gap-5 pb-1 px-6">
+              <p className="font-base mb-1 mr-14">
                 <span className="font-semibold">Written By,</span>Amarlab Blog{" "}
               </p>
             </div>
