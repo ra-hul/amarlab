@@ -24,6 +24,11 @@ import pulse from "./../images/pulse.png";
 import confidence from "./../images/confidence.png";
 import meetup from "./../images/meetup.jpeg";
 import causes from "./../images/causes.png";
+import dailystar from "./../images/dailystar.jpg";
+import financial from "./../images/financial.png";
+import dhakatri from "./../images/dhakatri.jpg";
+import future from "./../images/future.png";
+import newage from "./../images/newage.png";
 import homepic from "./../images/home_pic.jpg";
 import homepicOne from "./../images/home_pic_1.jpg";
 import homepicTwo from "./../images/home_pic_2.jpg";
@@ -289,7 +294,7 @@ const Home = () => {
         <div className="order-card">
           <div className="order-diag">
             <h5 className="text-2xl font-semibold ">
-              Order Diagnostics Service <br />{" "}
+              Order Diagnostics Service <br />
               <span className="from">From Top Labs</span>
             </h5>
             <span className="order-diag">
@@ -454,7 +459,7 @@ const Home = () => {
                 <img className="apex" src={beol} />
               </div>
             </div>
-            <div className="business-partners-slider">
+            <div className="business-partnes-slider">
               <div>
                 <img className="apex" src={biop} />
               </div>
@@ -1168,6 +1173,39 @@ const Home = () => {
                   for lab tests. It is also member of BASIS and E-CAB.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="my-20  featured">
+        <div className="mb-10 font-bold text-xl">
+          <h4>We Are Featured In</h4>
+        </div>
+
+        <div className="flex justify-center space-x-16 featured-slider-section">
+          <div className="featured-slider">
+            <div>
+              <img src={dailystar} />
+            </div>
+          </div>
+          <div className="featured-slider">
+            <div>
+              <img src={financial} />
+            </div>
+          </div>
+          <div className="featured-slider">
+            <div>
+              <img src={dhakatri} />
+            </div>
+          </div>
+          <div className="featured-slider">
+            <div>
+              <img src={future} />
+            </div>
+          </div>
+          <div className="featured-slider">
+            <div>
+              <img src={newage} />
             </div>
           </div>
         </div>

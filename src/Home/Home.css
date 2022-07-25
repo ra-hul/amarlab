@@ -448,6 +448,17 @@
   }
 }
 
+@keyframes slidef {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.featured-slider-section {
+  animation: slidef linear 20s infinite;
+}
 .business-section {
   animation: sliden linear 20s infinite;
 }
@@ -542,4 +553,8 @@
 }
 .faq-w {
   width: 92%;
+}
+.featured img {
+  width: 200px;
+  height: 30px;
 }
