@@ -531,3 +531,15 @@
   font-weight: 700;
   margin-top: 2%;
 }
+.content {
+  background-color: #ebf3f5;
+}
+.FAQ {
+  margin-left: 10%;
+}
+.plus-icon {
+  margin-right: 5%;
+}
+.faq-w {
+  width: 92%;
+}

@@ -36,27 +36,6 @@ import islami from "./../images/islami.png";
 import oncos from "./../images/oncos.png";
 
 const Home = () => {
-  //   var index = 0;
-  //   var i = 0;
-
-  //   var slider = document.getElementsByClassName("business-partners-slider");
-  // auto();
-  //   function show(n){
-  //     for ( i = 0 ; i<slider.length ; i++ ){
-  //       slider[i].style.display = "none";
-  //     }
-  //     slider[n-1].style.display = ("block");
-  //   }
-
-  //   function auto(){
-  //     index++;
-  //     if(index > slider.length){
-  //       index= i;
-  //     }
-  //      show(index);
-  //      setTimeout(auto,5000);
-  //   }
-
   return (
     <>
       <div className="flex upper_nav ">
@@ -573,6 +552,690 @@ const Home = () => {
       <div>
         <div className="asked-container">
           <h5>Frequently Asked Questions</h5>
+        </div>
+        <div className="FAQ">
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 
+          peer-checked:rotate-180 
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />{" "}
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative faq-w overflow-hidden border-2 rounded-md my-4 p-7">
+            <input
+              type="checkbox"
+              className="peer absolute inset-x-0
+           w-full h-12
+           opacity-0 z-10 cursor-pointer"
+            />
+            <div
+              className=" h-12 w-full
+          pl-5 flex items-center"
+            >
+              <h2 className="text-lg font-semibold">What is Amarlab?</h2>
+            </div>
+            {/* Plus icon */}
+
+            <div
+              className=" absolute 
+          transition-transform duration-500 rotate-0
+          peer-checked:rotate-180
+          "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            {/* Content */}
+            <div
+              className="content overflow-hidden
+            transition-all duration-500
+            max-h-0 peer-checked:max-h-40"
+            >
+              <div className="p-4">
+                <p>
+                  Amarlab is an at-home-at-work pathology test service that
+                  provides diagnostic services at home for your own comfort. We
+                  go to <br /> your house, collect sample, transport them to the
+                  lab of your choice for testing and then deliver the report at
+                  your doorsteps. <br />
+                  <br />
+                  Amarlab service is beneficial to the patients who face
+                  difficulty in travelling to receive healthcare facilities for
+                  various reasons <br /> including inaccessible transport,
+                  disability, old age or busy schedules. With the first of its
+                  kind initiative in Dhaka, people do not <br /> need to travel
+                  to and wait at diagnostic centers for medical tests. Enjoy
+                  diagnostic services from the comfort of your own home <br />
+                  with Amarlab!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
