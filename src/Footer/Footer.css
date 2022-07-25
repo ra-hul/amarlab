@@ -1,0 +1,42 @@
+.footer-container {
+  background-color: #ebf3f5;
+  height: 500px;
+  padding: 50px;
+}
+
+.footer-container img {
+  margin-left: 150px;
+}
+.img-footer {
+  margin-top: 30px;
+}
+.access {
+  margin-left: 113px;
+  font-weight: 600;
+}
+.making {
+  margin-left: 80px;
+  color: #3c4043;
+  font-weight: 600;
+}
+.footer-para {
+  margin-right: -20px;
+}
+.info {
+  margin-top: 20px;
+  margin-right: -40px;
+}
+.phone {
+  margin-right: 35px;
+}
+.office {
+  margin-right: -102px;
+}
+.block {
+  margin-right: -42px;
+  margin-bottom: 20px;
+}
+
+.footer-icons {
+  margin-right: 50px;
+}

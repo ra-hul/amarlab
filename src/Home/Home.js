@@ -39,6 +39,7 @@ import dr from "./../images/drlal.jpg";
 import thy from "./../images/thy.jpg";
 import islami from "./../images/islami.png";
 import oncos from "./../images/oncos.png";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -1210,6 +1211,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };
