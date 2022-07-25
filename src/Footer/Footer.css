@@ -1,6 +1,6 @@
 .footer-container {
   background-color: #ebf3f5;
-  height: 500px;
+  height: 650px;
   padding: 50px;
 }
 
@@ -11,7 +11,7 @@
   margin-top: 30px;
 }
 .access {
-  margin-left: 113px;
+  margin-left: 88px;
   font-weight: 600;
 }
 .making {
@@ -39,4 +39,20 @@
 
 .footer-icons {
   margin-right: 50px;
+}
+.login-footer {
+  margin-left: -39px;
+}
+.ssl-img {
+  margin-top: 20px;
+  width: 420px;
+}
+
+.second-footer {
+  background-color: #e1ecef;
+  height: 70px;
+  padding: 20px;
+}
+.footer-reserved {
+  margin-right: 60%;
 }

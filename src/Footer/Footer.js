@@ -39,10 +39,40 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h2>AmarLab</h2>
+          <div className="mt-36">
+            <h2 className="font-semibold text-lg">AmarLab</h2>
+            <ul>
+              <li className="about mr-6">About</li> <br />
+              <li className="blog mr-8">Blog</li> <br />
+              <li className="press mr-8">Press</li> <br />
+              <li className="FAQ mr-16">FAQs</li> <br />
+              <li className="terms ml-10">Terms Of Service</li> <br />
+              <li className="payment ml-9">Payment Terms</li> <br />
+              <li className="DOC ml-9">Company DOC</li>
+            </ul>
+            <img className="ssl-img" src={ssl} />
+          </div>
+          <div className="mt-36">
+            <h2 className="font-semibold text-lg">Services</h2>
+            <ul>
+              <li className="ml-3">Diagnostic</li> <br />
+              <li className="ml-12">Health Packages</li>
+            </ul>
+          </div>
+          <div className="mt-36 ">
+            <h2 className="font-semibold text-lg">For Patients</h2>
+            <ul>
+              <li className="ml-6">Create Account</li> <br />
+              <li className="login-footer">Login</li>
+            </ul>
           </div>
         </div>
+      </div>
+      <div className="second-footer">
+        <h2 className="footer-reserved">
+          AmarLab Ltd. © 2022.{" "}
+          <span className="font-semibold">Privacy & Terms</span>
+        </h2>
       </div>
     </>
   );
