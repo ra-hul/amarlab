@@ -50,7 +50,9 @@ const Footer = () => {
               <li className="payment ml-9">Payment Terms</li> <br />
               <li className="DOC ml-9">Company DOC</li>
             </ul>
-            <img className="ssl-img" src={ssl} />
+            <div className="ssl-img">
+              <img src={ssl} />
+            </div>
           </div>
           <div className="mt-36">
             <h2 className="font-semibold text-lg">Services</h2>
