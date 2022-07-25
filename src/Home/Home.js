@@ -570,6 +570,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div>
+        <div className="asked-container">
+          <h5>Frequently Asked Questions</h5>
+        </div>
+      </div>
     </>
   );
 };
