@@ -1,8 +1,5 @@
 import React from "react";
 import "./Home.css";
-import logo from "./../images/logo.png";
-import location from "./../images/location.png";
-import cart from "./../images/cart.png";
 import cart_2 from "./../images/cart_2.png";
 import cart_3 from "./../images/inject.png";
 import cart_4 from "./../images/prescribe.png";
@@ -40,49 +37,14 @@ import thy from "./../images/thy.jpg";
 import islami from "./../images/islami.png";
 import oncos from "./../images/oncos.png";
 import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
 const Home = () => {
   return (
     <>
-      <div className="fixed w-full">
-        <div className="flex upper_nav  ">
-          <h2 className="call_order">
-            Call For Order: <span className="font-bold">09643445566</span>{" "}
-          </h2>
-          <div className="icons space-x-4 ">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-instagram-square"></i>
-          </div>
-        </div>
-
-        <div className="flex lower_nav">
-          <img src={logo} className="nav_img"></img>
-
-          <div className="flex ml-12 space-x-12">
-            <h2>Diagnostic</h2>
-            <h2>Packages</h2>
-          </div>
-          <div className="flex ml-96 space-x-4 ">
-            <div>
-              <div className="flex">
-                <img src={location} className="location_img"></img>
-                <h5 className="ur_location">Your Location</h5>
-              </div>
-
-              <div className="flex space-x-4">
-                <p className="dhk_position">Dhaka</p>
-                <li class="fas fa-angle-down drop-icon"></li>
-              </div>
-            </div>
-            <button className="login">Login</button>
-            <button className="signup">Signup</button>
-            <img src={cart} className="cart"></img>
-          </div>
-        </div>
-      </div>
-      <div className="flex">
-        <div>
+      <Header></Header>
+      <div className="flex ">
+        <div className="my-40 ml-24">
           <div className="diag">
             <h1 className="diagn">Diagnostics</h1>
             <h1 className="door_step">At Your Doorstep</h1>
@@ -131,7 +93,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="slider">
+        <div className="slider my-40 ">
           <div className="slides">
             <input type="radio" name="radio-btn" id="radio1" />
             <input type="radio" name="radio-btn" id="radio2" />
