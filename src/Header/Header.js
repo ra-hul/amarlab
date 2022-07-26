@@ -7,7 +7,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="fixed w-full">
+      <div className="fixed lg:w-full sm:w-[375px]">
         <div className="flex upper_nav  ">
           <h2 className="call_order">
             Call For Order: <span className="font-bold">09643445566</span>{" "}

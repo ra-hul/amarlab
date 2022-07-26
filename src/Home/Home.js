@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
       <Header></Header>
-      <div className="flex ">
+      <div className="flex  lg:w-full sm:w-[375px] ">
         <div className="my-40 ml-24">
           <div className="diag">
             <h1 className="diagn">Diagnostics</h1>
@@ -57,12 +57,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex  space-x-4">
+          <div className="flex space-x-4">
             <div className="flex space-x-0 ml-36 mt-3">
               <img className="w-5 h-6 ml-5 " src={cart_2}></img>
               <div>
                 <h5>
-                  {" "}
                   <span className="header"> Step 01:</span> Order tests
                 </h5>
                 <small className="book_test">Book tests & checkups</small>
@@ -129,7 +128,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container flex">
+      <div className="container flex  lg:w-full sm:w-[375px]">
         <div className="justify-center service-container">
           <h5 className="counter">
             {" "}
@@ -147,7 +146,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="lab-container">
+        <div className="lab-container  lg:w-full sm:w-[375px]">
           <h5 className="partners">Our Lab Partners</h5>
           <p className="yourtest">
             Your tests will be done from our partner labs where quality
@@ -198,7 +197,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
+      <div className=" lg:w-full sm:w-[375px]">
         <div>
           <h5 className="partners">Why Book With Us?</h5>
         </div>
@@ -254,7 +253,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-24 space-x-7">
+      <div className="flex justify-center my-24 space-x-7  lg:w-full sm:w-[375px]">
         <div className="order-card">
           <div className="order-diag">
             <h5 className="text-2xl font-semibold ">
@@ -286,7 +285,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" need-help">
+      <div className=" need-help  lg:w-full sm:w-[375px]">
         <div className="book">
           <div className="booking-test">
             <h4>Need help in booking a test?</h4>
@@ -308,7 +307,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" lg:w-full sm:w-[375px]">
         <div className="enjoy">
           <h5>Enjoy Special Offers</h5>
         </div>
@@ -318,12 +317,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="achieve-container p-10">
+      <div className="achieve-container p-10  lg:w-full sm:w-[375px]">
         <div className="our-achieve">
           <h5>Our Achievements</h5>
         </div>
 
-        <div>
+        <div className=" lg:w-full sm:w-[375px]">
           <div className="hmove">
             <div className="hslide">
               <img className="inverted" src={inverted} />
@@ -393,10 +392,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="font-bold text-3xl my-10">
+        <div className="font-bold text-3xl my-10  lg:w-full sm:w-[375px]">
           <h5>Trusted By Over 80+ Businesses</h5>
         </div>
-        <div className="flex space-x-7 justify-center">
+        <div className="flex space-x-7 justify-center  lg:w-full sm:w-[375px]">
           <div className="business-section">
             <div className="business-partners-slider">
               <div>
@@ -468,7 +467,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" grid grid-cols-3  justify-items-center">
+      <div className=" grid grid-cols-3  justify-items-center  lg:w-full sm:w-[375px]">
         <div className="article-container  ">
           <h5>Read Top Articles</h5>
 
@@ -515,7 +514,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" lg:w-full sm:w-[375px]">
         <div className="asked-container">
           <h5>Frequently Asked Questions</h5>
         </div>
@@ -1141,7 +1140,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="my-20  featured">
+      <div className="my-20  featured  lg:w-full sm:w-[375px]">
         <div className="mb-10 font-bold text-xl">
           <h4>We Are Featured In</h4>
         </div>
